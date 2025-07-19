@@ -1,4 +1,5 @@
 🌐 Kişisel Portfolyo Web Sitesi
+
 Merhaba kendimi geliştirmek amacı ile basit bir portfolye sitesi kodladım. Projeyi figmadan ücretsiz bir template bulup birebir kodlamaya çalıştım.
 Bu proje, tamamen responsive (duyarlı) bir kişisel portfolyo web sitesidir. Figma üzerinden beğendiğim bir tasarımı temel alarak HTML ve CSS ile sıfırdan kodladım. Amacım front-end geliştirme becerilerimi ilerletmekti.
 
