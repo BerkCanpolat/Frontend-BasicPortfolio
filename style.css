@@ -259,3 +259,50 @@ nav {
     text-align: center;
 }
 /* COMMENT REFERANCE END */
+
+/* ABOUT START */
+.about-me {
+    background-color: var(--recent-bg);
+}
+
+.about-me__main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.main-content__left-side {
+    flex: 1;
+}
+
+.main-content__left-side p {
+    max-width: 60%;
+
+    line-height: 23px;
+    color: var(--nav-text);
+}
+
+.main-content__left-side h1 {
+    color: var(--home-text-color);
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.btn-two.about-btn{
+    margin-top: 55px;
+}
+
+.main-content__right-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 50%;
+}
+
+.main-content__right-side img {
+    width: 100%;
+}
+/* ABOUT END */
