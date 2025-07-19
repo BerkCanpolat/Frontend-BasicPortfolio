@@ -7,6 +7,7 @@ Hello, I coded a simple portfolio site with the aim of improving myself. I found
 This is a responsive personal portfolio website that I built based on a Figma design I found and liked. The goal of this project was to improve my HTML, CSS, and responsive design skills.
 
 ✨ Features
+
 Fully responsive layout (desktop, tablet, mobile).
 
 Clean, modern UI based on a Figma mockup.
