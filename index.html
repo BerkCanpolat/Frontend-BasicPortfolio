@@ -16,7 +16,7 @@
     <!-- HEADER START -->
     <header>
       <div class="container">
-        <nav>
+        <nav id="navList">
           <ul class="nav-list">
             <li>
               <a href="#">Home</a>
@@ -25,6 +25,7 @@
             <li><a href="#">Testimonials</a></li>
             <li><a href="#">About</a></li>
           </ul>
+          <i class="fa-solid fa-bars" onclick="menuopen()"></i>
         </nav>
         <div class="header-content">
           <div class="header-content__left">
@@ -137,26 +138,24 @@
 
       <!-- ABOUT START -->
       <section class="about-me">
-        <div class="container">
-          <div class="about-me__main-content">
-            <div class="main-content__left-side">
-              <h1>A Little Bit About Me</h1>
-              <p>
-                I am Salman Khan from Lucknow, India. I am working in an Indian
-                Startup as a User Eperience Designer for the past two years. I
-                got featured various times on many big and small marketplaces,
-                portfolio websites and blogs. I also received some awards and
-                recognitions from some of the big and small award companies.
-                Besides designing, I like to watch anime, read books and solve
-                sudoku.
-              </p>
-              <div class="btn-two about-btn">
-                  <a href="#">Contact Me</a>
-              </div>
+        <div class="about-me__main-content">
+          <div class="main-content__left-side">
+            <h1>A Little Bit About Me</h1>
+            <p>
+              I am Salman Khan from Lucknow, India. I am working in an Indian
+              Startup as a User Eperience Designer for the past two years. I got
+              featured various times on many big and small marketplaces,
+              portfolio websites and blogs. I also received some awards and
+              recognitions from some of the big and small award companies.
+              Besides designing, I like to watch anime, read books and solve
+              sudoku.
+            </p>
+            <div class="btn-two about-btn">
+              <a href="#">Contact Me</a>
             </div>
-            <div class="main-content__right-side">
-                <img src="img/bg-two.png" alt="">
-            </div>
+          </div>
+          <div class="main-content__right-side">
+            <img src="img/bg-two.png" alt="" />
           </div>
         </div>
       </section>
@@ -164,20 +163,33 @@
     </main>
 
     <footer class="main-footer">
-        <div class="container">
-            <h1>Let’s work together and make everything super cute and super useful.</h1>
-            <div class="main-footer__btn-icons">
-                <div class="btn-two">
-                    <a href="#">Contact Me</a>
-                </div>
-                <div class="btn-icons">
-                    <img src="img/Dribbble.png" alt="">
-                    <img src="img/Instagram.png" alt="">
-                    <img src="img/Pinterest.png" alt="">
-                    <img src="img/Linkedin.png" alt="">
-                </div>
-            </div>
+      <div class="container">
+        <h1>
+          Let’s work together and make everything super cute and super useful.
+        </h1>
+        <div class="main-footer__btn-icons">
+          <div class="btn-two">
+            <a href="#">Contact Me</a>
+          </div>
+          <div class="btn-icons">
+            <img src="img/Dribbble.png" alt="" />
+            <img src="img/Instagram.png" alt="" />
+            <img src="img/Pinterest.png" alt="" />
+            <img src="img/Linkedin.png" alt="" />
+          </div>
         </div>
+      </div>
     </footer>
+
+    <!-- JS -->
+    <script>
+      const navList = document.getElementById("navList");
+
+      function menuopen() {
+        navList.classList.toggle("hide-menu");
+      }
+
+    </script>
+
   </body>
 </html>
