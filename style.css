@@ -349,12 +349,12 @@ nav {
 /* MOBİLE */
 @media (max-width: 720px) {
   header {
-    height: 80vh;
+    height: 77vh;
   }
   nav {
     /* background-color: #fff; */
     padding: 35px 7% 0;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     position: relative;
 
@@ -409,8 +409,6 @@ nav {
     font-size: 28px;
     color: var(--home-text-color);
     line-height: 38px;
-
-    /* text-align: center; */
   }
 
   .left-flexbtn {
@@ -453,4 +451,123 @@ nav {
     display: block;
     margin: 0 auto;
   }
+
+  .recent-work h1 {
+  padding: 40px 0 20px;
+  color: var(--home-text-color);
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.recent-work__items {
+  margin-bottom: 20px;
+
+  flex-direction: column;
+}
+
+.items-left, .items-right {
+  max-width: 100%;
+  padding: 20px 0;
+}
+
+.items-left h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.items-left p {
+  line-height: 18px;
+  margin: 10px 0;
+  font-size: 13px;
+}
+
+.items-left .view-p {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.items-right img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+
+  border-radius: 50px;
+}
+
+.comment-referance {
+  padding: 40px 0 30px;
+}
+
+.comment-referance__header-text p {
+  margin: 10px 0 50px;
+  color: var(--nav-text);
+}
+
+.comment-referance__content {
+  flex-direction: column;
+}
+
+.content-left-side {
+  max-width: 100%;
+}
+
+.content-left-side p, .content-right-side p {
+  max-width: 75%;
+  line-height: 21px;
+}
+
+.content-left-side .referance-name,
+.content-right-side .referance-name {
+  margin: 15px 0 50px;
+  font-weight: bold;
+}
+
+.content-right-side {
+  max-width: 100%;
+}
+
+.about-me__main-content {
+    flex-direction: column;
+}
+
+.main-content__left-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.main-content__left-side p {
+  max-width: 60%;
+
+  line-height: 21px;
+}
+
+.main-content__left-side h1 {
+  color: var(--home-text-color);
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.btn-two.about-btn {
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
+
+.main-content__right-side img {
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.main-footer h1 {
+  padding: 50px 0 85px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
 }
