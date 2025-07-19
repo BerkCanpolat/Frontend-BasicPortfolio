@@ -306,3 +306,26 @@ nav {
     width: 100%;
 }
 /* ABOUT END */
+
+.main-footer {
+    background-color: antiquewhite;
+}
+
+.main-footer h1 {
+    padding: 100px 0 85px;
+    max-width: 720px;
+    font-size: 60px;
+    font-weight: 500;
+}
+
+.main-footer__btn-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.btn-icons img {
+    margin-left: 12px;
+    cursor: pointer;
+}
