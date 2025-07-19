@@ -23,6 +23,10 @@ Mobile-first approach.
 📱 Mobile Support
 The entire website is fully mobile-friendly. It adjusts perfectly to different screen sizes for better user experience on all devices.
 
+✨ Figma Project Link
+
+https://www.figma.com/community/file/1080815710425021479/designer-portfolio-website-template
+
 
 
 
@@ -53,3 +57,22 @@ Mobile-first yaklaşımı.
 📱 Mobil Uyumluluk
 
 Web sitesi mobil cihazlara tam uyumlu şekilde tasarlanmıştır. Ekran boyutuna göre otomatik olarak düzenlenir ve kullanıcıya her platformda iyi bir deneyim sunar.
+
+✨ Figma Proje Link
+
+https://www.figma.com/community/file/1080815710425021479/designer-portfolio-website-template
+
+
+
+
+
+
+
+https://github.com/user-attachments/assets/cb5d4031-a7de-478d-a2c2-c6789476a046
+
+
+
+
+
+
+
